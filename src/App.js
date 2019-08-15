@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import Nasa from "./components/Nasa"
+import styled from 'styled-components'
+import GlobalStyle from './components/Global';
 
 function App() {
+
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+    <div>
+      <Nasa />
+      <GlobalStyle />
     </div>
   );
 }
