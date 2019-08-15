@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
 import Nasa from "./components/Nasa"
+import styled from 'styled-components'
+import GlobalStyle from './components/Global';
 
 function App() {
 
   return (
-    <div className="App">
+    <div>
       <Nasa />
+      <GlobalStyle />
     </div>
   );
 }
